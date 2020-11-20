@@ -2,7 +2,7 @@ import axios from 'axios'
 
 function request(config) {
   const instance = axios.create({
-    baseURL: 'http://localhost:8000/journal',
+    baseURL: 'http://39.98.148.250:8000/journal',
     timeout: 5000
   })
 
