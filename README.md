@@ -15,3 +15,7 @@ cd ./client
 npm install
 npm run serve
 ~~~
+
+#### 不完美的地方
+1. 只完成了基本功能，没有注重其他方面
+2. 部署到gitee后font图标由于协议不同，出现跨域问题。

@@ -1,12 +1,9 @@
 <template>
   <div class="record-footer">
     <el-button
-      type="warning"
-      circle
-      style="padding: 0px"
+
       @click="dialogFormVisible = true"
-      ><i class="el-icon-circle-plus" style="font-size: 40px"></i
-    ></el-button>
+      >添加账单</el-button>
 
     <el-dialog title="添加账单" :visible.sync="dialogFormVisible">
       <el-form :model="form" :rules="rules" ref="submitForm">
